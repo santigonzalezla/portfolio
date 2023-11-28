@@ -1,0 +1,104 @@
+.Services
+{
+    position: relative;
+    background: linear-gradient(180deg, #0C0C1D, #111132);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.TextContainer
+{
+    flex-basis: 20%;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.TextContainer hr
+{
+    width: 300px;
+    border: none;
+    border-top: 0.5px solid #808080;
+}
+
+.TextContainer p
+{
+    font-size: 18px;
+    font-weight: 200;
+    text-align: right;
+}
+
+.TitleContainer
+{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.Title h1
+{
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.TitleContainer button
+{
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #FFA500;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Title img
+{
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.ListContainer
+{
+    flex-basis: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px;
+    gap: 25px;
+}
+
+.ListCard
+{
+    border-radius: 10px;
+    height: 100%;
+    padding: 35px 40px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000;
+    border: 2px solid #FFF;
+}
+
+.ListCard button
+{
+    padding: 10px;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

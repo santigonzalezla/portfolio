@@ -1,0 +1,81 @@
+.Hero
+{
+    height: calc(100vh - 100px);
+    overflow: hidden;
+}
+
+.HeroImg
+{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.HeroImg img
+{
+    height: 850px;
+}
+
+.HeroText
+{
+    padding: 100px 0 150px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    gap: 40px;
+}
+
+.HeroText h2
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: #663399;
+    letter-spacing: 10px;
+}
+
+.HeroText h1
+{
+    font-size: 65px;
+}
+
+.HeroButtons
+{
+    display: flex;
+    gap: 20px;
+}
+
+.HeroButtons button
+{
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.HeroText svg
+{
+    z-index: 1;
+    cursor: pointer;
+}
+
+.HeroSlider
+{
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    font-size: 40vh;
+    white-space: nowrap;
+    color: #FFFFFF09;
+    font-weight: 700;
+}
+
+
+
