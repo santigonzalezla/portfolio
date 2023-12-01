@@ -35,7 +35,7 @@ const Contact = () =>
                 <motion.p variants={variants}>Have a project you´d like to discuss? I´d love to hear from you. Fill out the form and I´ll get back to you within 24 hours.</motion.p>
                 <motion.div className={style.ContactInfo} variants={variants}>
                     <motion.h3 variants={variants}>Phone</motion.h3>
-                    <motion.p variants={variants}>+1 234 567 890</motion.p>
+                    <motion.p variants={variants}>+57 317 431 9914</motion.p>
                 </motion.div>
                 <motion.div className={style.ContactInfo} variants={variants}>
                     <motion.h3 variants={variants}>Email</motion.h3>
@@ -43,7 +43,7 @@ const Contact = () =>
                 </motion.div>
                 <motion.div className={style.ContactInfo} variants={variants}>
                     <motion.h3 variants={variants}>Address</motion.h3>
-                    <motion.p variants={variants}>Av. 1234, Buenos Aires, Argentina</motion.p>
+                    <motion.p variants={variants}>Bogotá, Colombia</motion.p>
                 </motion.div>
             </motion.div>
             <motion.form className={style.ContactForm} variants={variants}>
