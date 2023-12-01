@@ -56,7 +56,7 @@
     width: 300px;
     height: 100px;
     border-radius: 50px;
-    background-color: #FFA500;
+    background: linear-gradient(100deg, #5CE1E6, #F216E4);
     border: none;
     font-size: 30px;
     font-weight: 700;
@@ -94,10 +94,17 @@
     border: 2px solid #FFF;
 }
 
+.ListCard a
+{
+    width: 100%;
+}
+
 .ListCard button
 {
+    width: 100%;
     padding: 10px;
-    background-color: #FFA500;
+    color: #FFF;
+    background-color: #F216E4;
     border: none;
     border-radius: 5px;
     cursor: pointer;

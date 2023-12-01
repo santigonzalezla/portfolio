@@ -11,7 +11,7 @@
     background-color: #0C0C1D;
     text-align: center;
     font-size: 30px;
-    color: #FFA500;
+    color: #F216E4;
     z-index: 1;
 }
 
@@ -44,6 +44,7 @@
     object-fit: cover;
     height: inherit;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .ProjectText
@@ -77,8 +78,8 @@
     padding: 10px 40px;
     border: none;
     border-radius: 10px;
-    background-color: #FFA500;
-    color: #000;
+    background-color: #F216E4;
+    color: #FFF;
     font-size: 16px;
     cursor: pointer;
 }

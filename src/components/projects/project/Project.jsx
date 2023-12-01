@@ -11,15 +11,20 @@ const Project = ({ project }) =>
 
     const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
+    const handleClick = () =>
+    {
+        window.open(project.link);
+    }
+
     return (
         <section key={project.id} className={style.ProjectBanner}>
             <div className={style.ProjectImage} ref={ref}>
-                <img src={project.image} alt="project" />
+                <img src={project.image} alt="project" onClick={handleClick}/>
             </div>
             <motion.div className={style.ProjectText} style={{ y }}>
                 <h1>{project.name}</h1>
                 <p>{project.description}</p>
-                <button>See More</button>
+                <button onClick={handleClick}>See More</button>
             </motion.div>
         </section>
     );
